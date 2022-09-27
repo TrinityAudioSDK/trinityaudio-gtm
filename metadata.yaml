@@ -1,5 +1,5 @@
 homepage: "https://www.trinityaudio.ai/"
 documentation: "https://www.trinityaudio.ai/"
 versions:
-  - sha:
+  - sha: 8d1f554ae6a89035ab77f3c0dbbd5a51f1a6ed32
     changeNotes: Initial release
