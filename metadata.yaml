@@ -1,0 +1,5 @@
+homepage: "https://www.trinityaudio.ai/"
+documentation: "https://www.trinityaudio.ai/"
+versions:
+  - sha:
+    changeNotes: Initial release
