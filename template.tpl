@@ -130,7 +130,7 @@ if (isSelectorUsed) {
 
 log('ENDPOINT', ENDPOINT);
 
-let url = ENDPOINT + data.unitId + '/?pageURL=' + encodeUriComponent(pageURL);
+let url = ENDPOINT + data.unitId + '/?pageURL=' + encodeUriComponent(pageURL) + '&integrationType=gtm';
 if (isSelectorUsed) url += '&placeholderSelector=' + encodeUriComponent(selectorValue);
 
 log('URL', url);
