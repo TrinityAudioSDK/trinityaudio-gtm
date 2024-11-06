@@ -11,7 +11,7 @@ ___INFO___
 {
   "type": "TAG",
   "id": "cvt_temp_public_id",
-  "version": 1,
+  "version": 2,
   "securityGroups": [],
   "displayName": "Trinity Audio",
   "categories": ["UTILITY"],
@@ -130,7 +130,7 @@ if (isSelectorUsed) {
 
 log('ENDPOINT', ENDPOINT);
 
-let url = ENDPOINT + data.unitId + '/?pageURL=' + encodeUriComponent(pageURL);
+let url = ENDPOINT + data.unitId + '/?pageURL=' + encodeUriComponent(pageURL) + '&integrationType=gtm';
 if (isSelectorUsed) url += '&placeholderSelector=' + encodeUriComponent(selectorValue);
 
 log('URL', url);
